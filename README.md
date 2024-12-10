@@ -1,12 +1,11 @@
-# BENG183FinalPaper : deepTools
-Written by Haesol Jung, Meiqi Lai, Lydia Roh
+# deepTools: a Powerful Tool to Analyze and Process Deep Sequencing Data
+### Haesol Jung, Lydia Roh, Meiqi Lai
 
-1. [Introduction](#111)
-2. [Key Features](#211)
-3. [Work Flow](#311)
+## Contents
+* [Introduction] (#introduction)
 
-## Introduction<a name="111"></a>
+## Introduction
 
-## Key Features<a name="211"></a>
+## Key Features
 
-## Work Flow<a name="3311"></a>
+## Work Flow
