@@ -4,11 +4,11 @@
 ## Content 
 1. [Abstract](#011)
 2. [Introduction](#111)
-3. [Key Features](#211)
+3. [Key Features](#211) <br>
    3.1. [File Conversion](#311)<br>
-   3.2. [Signal Normalization](#321)
-   3.3. [Compute Matrix](#331)
-   3.4. [VisualizationTools](#341)
+   3.2. [Signal Normalization](#321)<br>
+   3.3. [Compute Matrix](#331)<br>
+   3.4. [VisualizationTools](#341)<br>
 
 4. [Work Flow](#411)
 
