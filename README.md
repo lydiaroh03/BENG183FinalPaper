@@ -2,9 +2,9 @@
 ### By Haesol Jung, Meiqi Lai, Lydia Roh
 
 ## Content 
-1. [Abstract](#011)
-2. [Introduction](#211)
-3. [Key Features](#3) <br>
+01 [Abstract](#011)
+02 [Introduction](#211)
+03 [Key Features](#3) <br>
    3.1. [File Conversion](#311)<br>
    3.2. [Signal Normalization](#321)<br>
    3.3. [Compute Matrix](#331)<br>
