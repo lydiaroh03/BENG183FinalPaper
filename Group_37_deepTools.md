@@ -81,3 +81,9 @@ deepTools is ideal for comparing datasets across conditions, replicates, or time
 Researchers often combine ChIP-seq, RNA-seq, and other datasets in multi-omics studies. deepTools provides the flexibility to analyze and visualize these datasets together.
 
 ## 06 Conclusion <a name="611"></a>
+deepTools has become an essential toolkit for researchers working with high-throughput sequencing data. Its ability to process, normalize, and visualize genomic datasets efficiently enables scientists to derive meaningful biological insights from complex experiments. As NGS technologies continue to advance, deepTools will remain a critical resource for the genomics community, empowering researchers to unlock new discoveries in epigenomics, transcriptomics, and beyond.
+
+## References <a name="711"></a>
+1. Ramírez, F., Ryan, D. P., Grüning, B., Bhardwaj, V., Kilpert, F., Richter, A. S., Heyne, S., Dündar, F., & Manke, T. (2016). deepTools2: a next generation web server for deep-sequencing data analysis. Nucleic Acids Research, 44(W1), W160-W165.
+2. Ramírez F, Dündar F, Diehl S, Grüning BA, Manke T. deepTools: a flexible platform for exploring deep-sequencing data. Nucleic Acids Res. 2014 Jul;42(Web Server issue):W187-91. doi: 10.1093/nar/gku365. Epub 2014 May 5. PMID: 24799436; PMCID: PMC4086134.
+3. deepTools Documentation: https://deeptools.readthedocs.io
