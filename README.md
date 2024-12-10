@@ -10,7 +10,7 @@
    3.3. [Compute Matrix](#331)<br>
    3.4. [Visualization Tools](#341)<br>
 
-4. [Work Flow](#4)
+4. [Work Flow](#4) <br>
    4.1. [Correlation between BAM Files](#411)<br>
    4.2. [Coverage Check](#421)<br>
    4.3. [GC-Bias Check](#431)<br>
