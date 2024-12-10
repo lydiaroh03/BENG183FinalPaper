@@ -17,7 +17,7 @@
    4.4. [Assessing the CHIP Strength](#441)<be>
 
 5. [Applications of deepTools](#511)
-6. [Conclusion](#conclusion)
+6. [Conclusion](#Conclusion)
 7. [References](#711)
 
 
