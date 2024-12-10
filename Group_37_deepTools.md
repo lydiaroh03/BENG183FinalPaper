@@ -17,7 +17,7 @@
    4.4. [Assessing the CHIP Strength](#441)<be>
 
 5. [Applications of deepTools](#511)
-6. [Conclusion](#Conclusion)
+6. [Conclusion](#611)
 7. [References](#711)
 
 
@@ -80,4 +80,4 @@ deepTools is ideal for comparing datasets across conditions, replicates, or time
 
 Researchers often combine ChIP-seq, RNA-seq, and other datasets in multi-omics studies. deepTools provides the flexibility to analyze and visualize these datasets together.
 
-## 06 Conclusion <a name="Conclusion"></a>
+## 06 Conclusion <a name="611"></a>
