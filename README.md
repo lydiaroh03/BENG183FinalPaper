@@ -24,10 +24,10 @@ deepTools is essentially a collection of tools, used primarily in the Bioinforma
 
 ## Key Features<a name="3"></a>
 
-#### 1) File Conversion <a name="311"></a>
-#### 2) Signal Normalization <a name="321"></a>
-#### 3) Compute Matrix <a name="331"></a>
-#### 4) Visualization Tools <a name="341"></a>
+### 1) File Conversion <a name="311"></a>
+### 2) Signal Normalization <a name="321"></a>
+### 3) Compute Matrix <a name="331"></a>
+### 4) Visualization Tools <a name="341"></a>
 
 ## Work Flow<a name="4"></a>
 ### 1) Correlation between BAM Files <a name="411"></a>
