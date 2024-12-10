@@ -1,4 +1,6 @@
 # BENG183FinalPaper : deepTools
+Written by Haesol Jung, Meiqi Lai, Lydia Roh
+
 1. [Introduction](#111)
 2. [Key Features](#211)
 3. [Work Flow](#311)
