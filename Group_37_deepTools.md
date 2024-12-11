@@ -1,9 +1,6 @@
 # deepTools: a Powerful Tool to Analyze and Process Deep Sequencing Data
 ### By Haesol Jung, Meiqi Lai, Lydia Roh
 
-## Example Image
-![Faker](images/faker.jpg)
-
 ## Content 
 1. [Abstract](#011)
 2. [Introduction](#211)
