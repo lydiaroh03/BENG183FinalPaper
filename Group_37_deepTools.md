@@ -73,7 +73,7 @@ The `computeMatrix` tool prepares data for visualization by organizing signals f
 
 deepTools includes powerful visualization options, such as `plotHeatmap` and `plotProfile`, which enable researchers to interpret complex datasets visually. Heatmaps, for example, can display enrichment patterns across multiple conditions or datasets, while profiles provide average signal distributions.
 
-## Work Flow<a name="4"></a>
+## 04 Work Flow<a name="4"></a>
 ### 1) Correlation between BAM Files <a name="411"></a>
 The tools multiBamSummary and plotCorrelation work together to perform a fundamental check to ensure that the sequenced and aligned reads align with your expectations. These modules are used to evaluate reproducibility, either between replicates or across different experiments that share common factors, such as the same antibody or cell type. For example, replicates are expected to show higher correlation compared to samples treated under different conditions.
 
