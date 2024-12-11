@@ -89,7 +89,7 @@ Coverage check (plotCoverage) helps determine how much of the genome is covered 
 <img src="images/coverage.jpg" alt="coverage">
 
 **Figure 4.2: Coverage Analysis Using `plotCoverage`**  
-The plots display the fraction of bases in the genome covered by sequencing reads at varying coverage depths. Each line represents a different BAM file (H3K4Me1, H3K4Me3, H3K27Me3, H3K9Me3) with their respective mean coverage values indicated. These plots help assess whether the sequencing depth is adequate or if further sequencing is required.
+The plots display the fraction of bases in the genome covered by sequencing reads at varying coverage depths. Each line represents a different BAM file (H3K4Me1, H3K4Me3, H3K27Me3, H3K9Me3) with their respective mean coverage values indicated. These plots help tell us whether the sequencing depth is adequate or if further sequencing is required.
 
 
 ### 3) GC-Bias Check <a name="431"></a>
