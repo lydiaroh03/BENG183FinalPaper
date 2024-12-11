@@ -96,6 +96,9 @@ The top plot shows the number of reads per 300 bp region across varying GC fract
 
 
 ### 4) Assessing the CHIP Strength <a name="441"></a>
+The purpose of this step is to get a accurate feeling for the signal-to-noise ratio in samples from ChIP-seq experiments
+The main tool involved in this step is `plotFingerprint`  - a command that assesses ChIP-seq quality by evaluating the signal-to-noise ratio.
+<img src="images/assessChip.jpg" alt="assessChip">
 
 
 ## 05 Applications of deepTools<a name="511"></a>
