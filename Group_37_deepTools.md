@@ -47,6 +47,20 @@ deepTools is a suite of command-line tools designed for the analysis and visuali
 
 One of the core functionalities of deepTools is the conversion of large, raw data files into smaller, more efficient formats. BAM files, which store aligned sequencing reads, are often unwieldy and challenging to work with for downstream analyses. deepTools provides tools like `bamCoverage` and `bamCompare` to convert BAM files into bigWig files, a binary format optimized for storage and visualization.
 
+| **Aspect**         | **BigWig File**                                | **BAM File**                                   |
+|---------------------|-----------------------------------------------|-----------------------------------------------|
+| **File Type**       | Binary format for storing continuous values over genome regions. | Binary format for storing sequence alignment data. |
+| **Purpose**         | Represents summarized data, such as coverage or signal intensity. | Represents read alignments against a reference genome. |
+| **Data Content**    | Stores processed data (e.g., coverage graphs). | Stores raw read alignments, including mapping quality and sequence. |
+| **Size**            | Generally smaller due to summarization.       | Larger because it includes detailed alignment data for each read. |
+| **Usage**           | Visualization of genomic signals (e.g., in genome browsers). | Detailed analysis of sequencing data, such as variant calling. |
+| **Indexing**        | Requires an associated index file (`.bw`) for efficient access. | Requires an associated index file (`.bai`) for efficient access. |
+| **Compression**     | Compressed binary format for efficiency.      | Compressed binary format (BGZF).             |
+| **Compatibility**   | Used primarily with genome browsers (e.g., UCSC Genome Browser, IGV). | Used with bioinformatics tools (e.g., SAMtools, Picard). |
+| **Generation**      | Created from BAM files or other data sources via tools like `bedGraphToBigWig`. | Generated directly from sequencing data after alignment. |
+| **Example Use Case**| Visualizing ChIP-seq peak intensities or RNA-seq coverage. | Analyzing sequence alignment to identify variants or gene expression. |
+
+
 ### 3.2 Signal Normalization <a name="321"></a>
 
 Normalization ensures that data comparisons between samples, conditions, or replicates are biologically meaningful. Variations in sequencing depth, library size, or experimental conditions can introduce biases that skew results. deepTools supports several normalization methods, including Reads Per Kilobase per Million (RPKM), Counts Per Million (CPM), and SES (Simple Scaling).
