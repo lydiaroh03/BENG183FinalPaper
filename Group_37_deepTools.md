@@ -146,18 +146,18 @@ The main tool involved in this step is `plotFingerprint`  - a command that asses
 
 ## 05 Applications of deepTools<a name="511"></a>
 
-#### Epigenomic Studies
+### Epigenomic Studies
 deepTools is commonly used in epigenomic research to explore chromatin modifications and structural features of the genome. It enables researchers to investigate regions such as enhancers, promoters, and chromatin states by visualizing patterns of histone modifications or transcription factor binding.
 **Specific Examples:**
 - Researchers can use deepTools to compare **active enhancers** (marked by H3K27ac) with **repressed enhancers** (marked by H3K27me3). By generating heatmaps with `plotHeatmap` and analyzing signal profiles using `plotProfile`, they can identify genomic regions associated with specific regulatory states and infer functional differences between active and inactive chromatin.
 
-#### Transcriptomics
+### Transcriptomics
 In RNA-seq experiments, deepTools facilitates the normalization and visualization of gene expression data. This enables meaningful comparisons across different conditions or treatments.
 
 **Specific Example:**  
 - When comparing RNA-seq samples, deepTools can normalize read counts using methods like RPKM or CPM (`bamCoverage` with normalization options) and visualize gene expression patterns across treatments or replicates. For instance, comparing RNA-seq data from treated vs. untreated cells can highlight genes with increased or decreased transcriptional activity. The resulting visualizations provide clear insights into transcriptional responses to treatments.
 
-#### Multi-Omics Integration
+### Multi-Omics Integration
 deepTools excels in multi-omics studies, where data from multiple experimental modalities are combined to provide a comprehensive view of gene regulation and genome function. It supports the overlay and comparison of datasets like ChIP-seq and RNA-seq, enabling researchers to integrate transcription factor binding data with gene expression profiles.
 
 **Specific Example:**  
