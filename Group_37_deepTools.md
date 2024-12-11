@@ -77,7 +77,8 @@ deepTools includes powerful visualization options, such as `plotHeatmap` and `pl
 ### 1) Correlation between BAM Files <a name="411"></a>
 The tools multiBamSummary and plotCorrelation work together to perform a fundamental check to ensure that the sequenced and aligned reads align with your expectations. These modules are used to evaluate reproducibility, either between replicates or across different experiments that share common factors, such as the same antibody or cell type. For example, replicates are expected to show higher correlation compared to samples treated under different conditions.
 
-![correlation](images/correlation.jpg)
+<img src="images/correlation.jpg" alt="correlation" width="400" height="300">
+
 **Figure 4.1: Spearman Correlation of Read Counts Across Different Histone Modifications and Input Samples**
 
 This heatmap illustrates the Spearman correlation coefficients of read counts between various histone modifications (H3K9me3, H3K27me3, H3K4me3, H3K4me1) and input samples. The clustering dendrogram on the left highlights relationships among samples, with closer branches indicating higher similarity. Positive correlations are represented by blue shades, while negative correlations are shown in orange to red. Strong correlations (closer to 1.0) between replicates or similar experimental conditions demonstrate reproducibility, whereas weaker correlations (closer to -1.0) may indicate significant differences between treatments or distinct biological conditions.
