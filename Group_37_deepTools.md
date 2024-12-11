@@ -76,7 +76,7 @@ The `computeMatrix` tool prepares data for visualization by organizing signals f
 deepTools includes powerful visualization options, such as `plotHeatmap` and `plotProfile`, which enable researchers to interpret complex datasets visually. Heatmaps, for example, can display enrichment patterns across multiple conditions or datasets, while profiles provide average signal distributions.
 
 ## 04 Work Flow<a name="4"></a>
-### 1) Correlation between BAM Files <a name="411"></a>
+### 4.1 Correlation between BAM Files <a name="411"></a>
 The tools multiBamSummary and plotCorrelation work together to perform a fundamental check to ensure that the sequenced and aligned reads align with your expectations. These modules are used to evaluate reproducibility, either between replicates or across different experiments that share common factors, such as the same antibody or cell type. For example, replicates are expected to show higher correlation compared to samples treated under different conditions.
 <img src="images/correlation.jpg" alt="correlation">
 
@@ -84,7 +84,7 @@ The tools multiBamSummary and plotCorrelation work together to perform a fundame
 
 This heatmap illustrates the Spearman correlation coefficients of read counts between various histone modifications (H3K9me3, H3K27me3, H3K4me3, H3K4me1) and input samples. The clustering dendrogram on the left highlights relationships among samples, with closer branches indicating higher similarity. Positive correlations are represented by blue shades, while negative correlations are shown in orange to red. Strong correlations (closer to 1.0) between replicates or similar experimental conditions demonstrate reproducibility, whereas weaker correlations (closer to -1.0) may indicate significant differences between treatments or distinct biological conditions.
 
-### 2) Coverage Check <a name="421"></a>
+### 4.2 Coverage Check <a name="421"></a>
 Coverage check (plotCoverage) helps determine how much of the genome is covered by a sufficient number of sequencing reads. It generates two diagnostic plots that help decide if more sequencing is needed. The --ignoreDuplicates option is especially helpful for this analysis.
 <img src="images/coverage.jpg" alt="coverage">
 
@@ -92,7 +92,7 @@ Coverage check (plotCoverage) helps determine how much of the genome is covered 
 The plots display the fraction of bases in the genome covered by sequencing reads at varying coverage depths. Each line represents a different BAM file (H3K4Me1, H3K4Me3, H3K27Me3, H3K9Me3) with their respective mean coverage values indicated. These plots help tell us whether the sequencing depth is adequate or if further sequencing is required.
 
 
-### 3) GC-Bias Check <a name="431"></a>
+### 4.3 GC-Bias Check <a name="431"></a>
 This step essentially evaluates for any biases in GC content after PCR amplification. It is important to remember a couple of key points: GC bias happens when there is preferential amplification of GC-rich templates and correction is important because it revamps data consistency.<br>
 <img src="images/gcbias.jpg" alt="gcbias">
 
@@ -100,7 +100,7 @@ This step essentially evaluates for any biases in GC content after PCR amplifica
 The top plot shows the number of reads per 300 bp region across varying GC fractions, highlighting potential biases in sequencing coverage. The bottom plot displays the log2 ratio of observed versus expected read counts, further illustrating deviations in GC content representation.
 
 
-### 4) Assessing the CHIP Strength <a name="441"></a>
+### 4.4 Assessing the CHIP Strength <a name="441"></a>
 The purpose of this step is to get a accurate feeling for the signal-to-noise ratio in samples from ChIP-seq experiments
 The main tool involved in this step is `plotFingerprint`  - a command that assesses ChIP-seq quality by evaluating the signal-to-noise ratio.
 <img src="images/assessChip.jpg" alt="assessChip">
