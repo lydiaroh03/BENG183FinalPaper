@@ -143,6 +143,9 @@ The purpose of this step is to get a accurate feeling for the signal-to-noise ra
 The main tool involved in this step is `plotFingerprint`  - a command that assesses ChIP-seq quality by evaluating the signal-to-noise ratio.
 <img src="images/assessChip.jpg" alt="assessChip">
 
+**Figure 4.4: Assessing CHIP Strength**  
+As you can see in the above study on fingerprints of different sample, we can interpret the CHIP strength through the general convention that strong signals indicate high ChIP strength. Weak signals suggest more noise or insufficient enrichment.
+
 
 ## 05 Applications of deepTools<a name="511"></a>
 
