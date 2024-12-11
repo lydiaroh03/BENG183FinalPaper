@@ -28,9 +28,9 @@ Next-generation sequencing (NGS) technologies have revolutionized genomics resea
 ## 02 Introduction<a name="211"></a>
 ### What is "deepTools"?
 
-deepTools is a versatile and widely used bioinformatics toolkit designed to streamline the analysis and visualization of high-throughput sequencing data. It is particularly useful for data derived from next-generation sequencing (NGS) experiments, such as ChIP-seq, RNA-seq, and ATAC-seq. These experiments often produce large and complex datasets that require specialized tools to process, normalize, and visualize effectively.
+deepTools is a versatile and widely used bioinformatics toolkit designed to streamline the analysis and visualization of high-throughput sequencing data. It is particularly useful for data derived from next-generation sequencing (NGS) experiments, such as ChIP-seq, RNA-seq, and ATAC-seq. These experiments often produce large and complex datasets that require specialized tools to process, normalize, and visualize effectively. 
 
-Originally developed at the Max Planck Institute, deepTools was created to address the specific challenges faced in genomic and epigenomic studies. Its key functionalities include converting unwieldy raw data formats into more manageable ones, performing essential quality checks, and generating high-quality, publication-ready visualizations. The suite has been widely adopted by researchers for its efficiency, flexibility, and ability to provide meaningful insights into genomic data.
+Originally developed at the Max Planck Institute, deepTools was created to address the specific challenges faced in genomic and epigenomic studies. Its key functionalities include converting unwieldy raw data formats into more manageable ones, performing essential quality checks, and generating high-quality, publication-ready visualizations. The suite has been widely adopted by researchers for its efficiency, flexibility, and ability to provide meaningful insights into genomic data. 
 
 By supporting tasks like signal normalization, file conversion, and data visualization, deepTools has become an essential part of the modern bioinformatics toolkit, enabling researchers to make sense of complex genomic data and advance their understanding of biological systems.
 
@@ -47,7 +47,7 @@ deepTools is a suite of command-line tools designed for the analysis and visuali
 
 ### 3.1 File Conversion <a name="311"></a>
 
-One of the core functionalities of deepTools is the conversion of large, raw data files into smaller, more efficient formats. BAM files, which store aligned sequencing reads, are often unwieldy and challenging to work with for downstream analyses. deepTools provides tools like `bamCoverage` and `bamCompare` to convert BAM files into bigWig files, a binary format optimized for storage and visualization. Below is a table that actually details the differences betwen these 2 types of files.
+One of the core functionalities of deepTools is the conversion of large, raw data files into smaller, more efficient formats. BAM files, which store aligned sequencing reads, are often unwieldy and challenging to work with for downstream analyses. deepTools provides tools like `bamCoverage` and `bamCompare` to convert BAM files into bigWig files, a binary format optimized for storage and visualization. bigWig files are preferred for visualization since Genome browsers like IGV load bigWig files much faster than BAM files, making them ideal for visualizing enrichment patterns. Below is a table that actually details the differences between these 2 types of files.
 
 | **Aspect**         | **BigWig File**                                | **BAM File**                                   |
 |---------------------|-----------------------------------------------|-----------------------------------------------|
