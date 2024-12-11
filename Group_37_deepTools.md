@@ -83,8 +83,11 @@ The tools multiBamSummary and plotCorrelation work together to perform a fundame
 
 This heatmap illustrates the Spearman correlation coefficients of read counts between various histone modifications (H3K9me3, H3K27me3, H3K4me3, H3K4me1) and input samples. The clustering dendrogram on the left highlights relationships among samples, with closer branches indicating higher similarity. Positive correlations are represented by blue shades, while negative correlations are shown in orange to red. Strong correlations (closer to 1.0) between replicates or similar experimental conditions demonstrate reproducibility, whereas weaker correlations (closer to -1.0) may indicate significant differences between treatments or distinct biological conditions.
 
-
 ### 2) Coverage Check <a name="421"></a>
+Coverage check (plotCoverage) helps determine how much of the genome is covered by a sufficient number of sequencing reads. It generates two diagnostic plots that help decide if more sequencing is needed. The --ignoreDuplicates option is especially helpful for this analysis.
+<img src="images/coverage.jpg" alt="coverage" width="800" height="600">
+
+
 ### 3) GC-Bias Check <a name="431"></a>
 ### 4) Assessing the CHIP Strength <a name="441"></a>
 
