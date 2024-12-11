@@ -82,7 +82,6 @@ This heatmap illustrates the Spearman correlation coefficients of read counts be
 
 ### 2) Coverage Check <a name="421"></a>
 Coverage check (plotCoverage) helps determine how much of the genome is covered by a sufficient number of sequencing reads. It generates two diagnostic plots that help decide if more sequencing is needed. The --ignoreDuplicates option is especially helpful for this analysis.
-
 <img src="images/coverage.jpg" alt="coverage">
 
 **Figure 4.2: Coverage Analysis Using `plotCoverage`**  
@@ -90,6 +89,11 @@ The plots display the fraction of bases in the genome covered by sequencing read
 
 
 ### 3) GC-Bias Check <a name="431"></a>
+This step essentially evaluates for any biases in GC content after PCR amplification. It is important to remember a couple of key points: GC bias happens when there is preferential amplification of GC-rich templates and correction is important because it revamps data consistency.
+<img src="images/gcbias.jpg" alt="gcbias">
+
+
+
 ### 4) Assessing the CHIP Strength <a name="441"></a>
 
 ## 05 Applications of deepTools<a name="511"></a>
