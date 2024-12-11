@@ -45,7 +45,7 @@ deepTools is a suite of command-line tools designed for the analysis and visuali
 
 ### 3.1 File Conversion <a name="311"></a>
 
-One of the core functionalities of deepTools is the conversion of large, raw data files into smaller, more efficient formats. BAM files, which store aligned sequencing reads, are often unwieldy and challenging to work with for downstream analyses. deepTools provides tools like `bamCoverage` and `bamCompare` to convert BAM files into bigWig files, a binary format optimized for storage and visualization.
+One of the core functionalities of deepTools is the conversion of large, raw data files into smaller, more efficient formats. BAM files, which store aligned sequencing reads, are often unwieldy and challenging to work with for downstream analyses. deepTools provides tools like `bamCoverage` and `bamCompare` to convert BAM files into bigWig files, a binary format optimized for storage and visualization. Below is a table that actually details the differences betwen these 2 types of files.
 
 | **Aspect**         | **BigWig File**                                | **BAM File**                                   |
 |---------------------|-----------------------------------------------|-----------------------------------------------|
