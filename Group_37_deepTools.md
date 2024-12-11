@@ -91,12 +91,12 @@ The plots display the fraction of bases in the genome covered by sequencing read
 This step essentially evaluates for any biases in GC content after PCR amplification. It is important to remember a couple of key points: GC bias happens when there is preferential amplification of GC-rich templates and correction is important because it revamps data consistency.<br>
 <img src="images/gcbias.jpg" alt="gcbias">
 
-**Figure: GC Bias Analysis**  
+**Figure 4.3: GC Bias Analysis**  
 The top plot shows the number of reads per 300 bp region across varying GC fractions, highlighting potential biases in sequencing coverage. The bottom plot displays the log2 ratio of observed versus expected read counts, further illustrating deviations in GC content representation.
 
 
-
 ### 4) Assessing the CHIP Strength <a name="441"></a>
+
 
 ## 05 Applications of deepTools<a name="511"></a>
 
