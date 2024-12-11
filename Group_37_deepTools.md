@@ -75,6 +75,10 @@ deepTools includes powerful visualization options, such as `plotHeatmap` and `pl
 
 ## Work Flow<a name="4"></a>
 ### 1) Correlation between BAM Files <a name="411"></a>
+The tools multiBamSummary and plotCorrelation work together to perform a fundamental check to ensure that the sequenced and aligned reads align with your expectations. These modules are used to evaluate reproducibility, either between replicates or across different experiments that share common factors, such as the same antibody or cell type. For example, replicates are expected to show higher correlation compared to samples treated under different conditions.
+
+![correlation](images/correlation.jpg)
+
 
 ### 2) Coverage Check <a name="421"></a>
 ### 3) GC-Bias Check <a name="431"></a>
