@@ -65,7 +65,45 @@ One of the core functionalities of deepTools is the conversion of large, raw dat
 
 ### 3.2 Signal Normalization <a name="321"></a>
 
-Normalization ensures that data comparisons between samples, conditions, or replicates are biologically meaningful. Variations in sequencing depth, library size, or experimental conditions can introduce biases that skew results. deepTools supports several normalization methods, including Reads Per Kilobase per Million (RPKM), Counts Per Million (CPM), and SES (Simple Scaling).
+Normalization ensures that data comparisons between samples, conditions, or replicates are biologically meaningful. Variations in sequencing depth, library size, or experimental conditions can introduce biases that skew results. deepTools supports several normalization methods, including Reads Per Kilobase per Million (RPKM), Counts Per Million (CPM), and SES (Simple Scaling). 
+
+#### Usage Example for Signal Normalization in ChIP-seq
+The following example demonstrates how to use the bamCoverage tool in deepTools to normalize ChIP-seq data, applying additional options for enhanced resolution and specificity:
+
+```
+bamCoverage --bam a.bam -o a.SeqDepthNorm.bw \
+    --binSize 10 \
+    --normalizeUsing RPGC \
+    --effectiveGenomeSize 2150570000 \
+    --ignoreForNormalization chrX \
+    --extendReads
+```
+#### Output
+```
+$ head SeqDepthNorm_chr19.bedgraph
+19  60150   60250   9.32
+19  60250   60450   18.65
+19  60450   60650   27.97
+19  60650   60950   37.29
+19  60950   61000   27.97
+19  61000   61050   18.65
+19  61050   61150   27.97
+19  61150   61200   18.65
+19  61200   61300   9.32
+19  61300   61350   18.65
+```
+
+Each row in the bedGraph file represents a genomic region, with consecutive bins of identical values merged for simplicity. The values (e.g., 9.32, 18.65) represent normalized read counts over the specified region.
+
+#### Significance
+
+This example highlights the importance of signal normalization in ChIP-seq:
+
+* Adjusts coverage data to account for sequencing depth and genome size.
+* Provides a high-resolution signal for precise visualization and analysis.
+* Enables direct comparisons across samples, conditions, or treatments in ChIP-seq experiments.
+
+By normalizing the data with these options, researchers can confidently interpret their ChIP-seq results, ensuring that observed enrichment patterns reflect genuine biological phenomena rather than technical artifacts.
 
 ### 3.3 Compute Matrix <a name="331"></a>
 
