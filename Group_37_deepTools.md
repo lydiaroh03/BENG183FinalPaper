@@ -77,7 +77,7 @@ deepTools includes powerful visualization options, such as `plotHeatmap` and `pl
 ### 1) Correlation between BAM Files <a name="411"></a>
 The tools multiBamSummary and plotCorrelation work together to perform a fundamental check to ensure that the sequenced and aligned reads align with your expectations. These modules are used to evaluate reproducibility, either between replicates or across different experiments that share common factors, such as the same antibody or cell type. For example, replicates are expected to show higher correlation compared to samples treated under different conditions.
 
-<img src="images/correlation.jpg" alt="correlation" width="800" height="600">
+<img src="images/correlation.jpg" alt="correlation">
 
 **Figure 4.1: Spearman Correlation of Read Counts Across Different Histone Modifications and Input Samples**
 
@@ -85,7 +85,8 @@ This heatmap illustrates the Spearman correlation coefficients of read counts be
 
 ### 2) Coverage Check <a name="421"></a>
 Coverage check (plotCoverage) helps determine how much of the genome is covered by a sufficient number of sequencing reads. It generates two diagnostic plots that help decide if more sequencing is needed. The --ignoreDuplicates option is especially helpful for this analysis.
-<img src="images/coverage.jpg" alt="coverage" width="800" height="600">
+
+<img src="images/coverage.jpg" alt="coverage">
 
 
 ### 3) GC-Bias Check <a name="431"></a>
