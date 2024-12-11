@@ -148,6 +148,7 @@ The main tool involved in this step is `plotFingerprint`  - a command that asses
 
 ### Epigenomic Studies
 deepTools is commonly used in epigenomic research to explore chromatin modifications and structural features of the genome. It enables researchers to investigate regions such as enhancers, promoters, and chromatin states by visualizing patterns of histone modifications or transcription factor binding.
+
 **Specific Examples:**
 - Researchers can use deepTools to compare **active enhancers** (marked by H3K27ac) with **repressed enhancers** (marked by H3K27me3). By generating heatmaps with `plotHeatmap` and analyzing signal profiles using `plotProfile`, they can identify genomic regions associated with specific regulatory states and infer functional differences between active and inactive chromatin.
 
