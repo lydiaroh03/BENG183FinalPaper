@@ -21,7 +21,7 @@
 7. [References](#711)
 
 
-## 01 Abstract<a name="011"></a>
+## 01 Abstract("#011)
 
 Next-generation sequencing (NGS) technologies have revolutionized genomics research. This technology generates massive datasets that require tools for efficient analysis and visualization. deepTools is a collective bioinformatics tool designed to address these challenges, particularly for epigenomics and transcriptomics studies. This paper provides an in-depth overview of deepTools, its key features, and its application in workflows. With its ability to streamline the processing of genome-wide coverage files and generate high-quality visualizations, deepTools is a useful resource for researchers to navigate the complexities of high-throughput sequencing data.
 
